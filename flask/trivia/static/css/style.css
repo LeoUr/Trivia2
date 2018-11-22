@@ -1,0 +1,41 @@
+html, body {
+    width: 100%;
+    height: auto;
+    font-family: Verdana, Arial;
+}
+
+footer {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #E2F7FC;
+    color: #2229AD;
+}
+
+.anchor_boton {
+    text-decoration: none;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #DAB2C7;
+    padding: 5px;
+    height: 20px;
+    width: 120px;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    margin: 2px;
+}
+
+.flex__centrado {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+#contenedor {
+}
+
+#nombre {
+    font-weight: bolder;
+}
